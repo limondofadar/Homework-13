@@ -1,0 +1,410 @@
+/* =======all common css start ====== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+
+.mr {
+    margin-right: 0 !important;
+}
+
+/* =======all common css end ====== */
+
+#header_part {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.44);
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.header_logo_menu {
+    line-height: 100px;
+}
+
+.logo {
+
+    width: 170px;
+
+    float: left;
+}
+
+.menu {
+
+    text-align: right;
+    width: 1000px;
+
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    padding-left: 40px;
+
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.menu ul li a:hover {
+    color: #28b8d8;
+
+}
+
+
+
+
+#banar_part {
+    background: url(../images/1.jpg);
+    padding-top: 330px;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banar_text {
+    text-align: center;
+    color: #fff;
+}
+
+.banar_text h1 {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.banar_text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.banar_text p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 300;
+
+
+}
+
+#service_part {
+    background: #f9f9f9;
+}
+
+.service_part_text {
+    text-align: center;
+    color: #444444;
+
+}
+
+.service_part_text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 80px;
+}
+
+.service_part_text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 35px;
+    padding-bottom: 80px;
+
+}
+
+.service_part_text h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+/* ===== header star =====  */
+
+
+.imagesCardpart {
+    background: #fff;
+    color: #444444;
+    margin-top: 30px;
+    text-align: center;
+    width: 368px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 85px;
+
+}
+
+.imagesCardpart img {
+    width: 100%;
+    padding: 15px;
+}
+
+.imagesCardpart h5 {
+    padding-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+.imagesCardpart p {
+    padding: 0 15px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+/* ===== header end =====  */
+#imstragram_and_photograpy {
+
+    padding-top: 55px;
+    padding-bottom: 50px;
+    background: #2c2c2c;
+}
+
+.instragramservice {
+    margin-bottom: 45px;
+    color: #d5d5d5;
+    text-align: center;
+
+}
+
+.instragramservice h5 {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+
+}
+
+.instragramservice h5::after {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #535353;
+    content: "";
+    top: 50%;
+    right: -70%;
+    transform: translateY(-50%);
+}
+
+.instragramservice h5::before {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #535353;
+    content: "";
+    top: 50%;
+    left: -70%;
+    transform: translateY(-50%);
+}
+
+.photograpy_images_part {
+
+    width: 25%;
+    float: left;
+}
+
+.photograpy_images_part img {
+    width: 100%;
+}
+
+.inastragram_btn_part {
+
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.inastragram_btn_part a {
+    padding: 20px;
+
+    border: 1px solid#878787
+}
+
+.inastragram_btn_part a {
+    color: #878787;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.inastragram_btn_part i {
+    padding-right: 5px;
+}
+
+/* .inastragram_btn_part i{
+
+
+} */
+
+
+
+
+/* ===== header star =====  */
+
+
+#journal_part {
+    padding-top: 80px;
+    padding-bottom: 85px;
+    background: #f9f9f9;
+}
+
+
+.suducolor h5 {
+    color: #444444;
+
+}
+
+.suducolor h5::after {
+    background: #d9d9d9;
+}
+
+.suducolor h5::before {
+
+    background: #d9d9d9;
+}
+
+
+
+.formthejounal {
+    margin-right: 30px;
+    background: white;
+
+    width: 368px;
+    border: 1px solid #e3e3e3;
+    float: left;
+}
+
+.formthejounal img {
+    width: 100%;
+}
+
+.formthejounal h5 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444444;
+}
+
+.formthejounal h6 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #444444;
+
+}
+
+
+.formthejounal p {
+    padding: 0px 40px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.continue_text p {
+    padding-bottom: 25px;
+    text-align: left;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    
+    text-transform: uppercase;
+}
+.continue_text p a{
+    color: #444444;
+    border-bottom: 1px solid #28b8d8;
+}
+
+
+
+
+.continue_text i{
+   margin-left: 70px;
+    color: #444444;  
+}
+/* ===== header end =====  */
+/* ===== header star =====  */
+/* ===== header end =====  */
+/* ===== header star =====  */
+/* ===== header end =====  */
+/* ===== header star =====  */
+/* ===== header end =====  */
+/* ===== header star =====  */
+/* ===== header end =====  */
+/* ===== header star =====  */
+/* ===== header end =====  */
+/* ===== header star =====  */
+/* ===== header end =====  */
+/* ===== header star =====  */
+/* ===== header end =====  */
